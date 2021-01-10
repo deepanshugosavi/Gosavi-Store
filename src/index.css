@@ -1,13 +1,154 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.global__container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header__container {
+  position: fixed;
+  background-color: #23120b;
+  width: 100vw;
+  height: 60px;
+  color: white;
+  text-shadow: 0.5px 0.1px rebeccapurple;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  z-index: 2;
+}
+
+.cart__items {
+  display: flex;
+}
+.item__count {
+  background-color: white;
+  padding: 2px 10px;
+  margin-right: 4px;
+  color: #23120b;
+  text-align: center;
+  align-self: center;
+  border-radius: 20px;
+  font-weight: bold;
+  color: rebeccapurple;
+  font-size: 20px;
+}
+
+.main__container {
+  position: relative;
+  top: 60px;
+  width: 100vw;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.product__card {
+  background-color: #fff;
+  width: 280px;
+  height: 360px;
+  padding: 0px 10px;
+  box-shadow: 1px 1px grey;
+  border-radius: 20px;
+  margin: 40px 60px;
+}
+
+.product__title {
+  height: 20%;
+  background-color: #23120b;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.product__category {
+  display: flex;
+  justify-content: flex-start;
+  text-transform: capitalize;
+  color: rebeccapurple;
+}
+
+.product__price {
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+}
+
+.product__img {
+  width: 100%;
+  height: 60%;
+}
+.product__btn {
+  background-color: #23120b;
+  color: white;
+  margin-top: 6px;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 28px;
+}
+
+.add__btn {
+  background-color: green;
+  margin: 0 20px;
+  border-radius: 20px;
+}
+.remove__btn {
+  background-color: orangered;
+  margin: 0 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+  .header__container {
+    width: 100%;
+    margin: 0;
+  }
+  .product__card {
+    width: 40%;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__container {
+    width: 100%;
+    margin: 0;
+  }
+  .product__card {
+    width: 60%;
+    margin: 40px auto;
+  }
+}
+@media (max-width: 400px) {
+  .header__container {
+    width: 100%;
+    margin: 0;
+  }
+  .product__card {
+    width: 80%;
+    margin: 40px auto;
+  }
 }
