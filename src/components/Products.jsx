@@ -11,8 +11,10 @@ function Products(props) {
     store.addItemInCart();
   };
   const handleItemRemove = () => {
-    if (item_count > 0) setCount(item_count - 1);
-    store.removeItemInCart();
+    if (item_count > 0) {
+      setCount(item_count - 1);
+      store.removeItemInCart();
+    }
   };
   return (
     <div className="product__card">
