@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Gosavi-Store/static/css/main.5ac04282.chunk.css",
+    "main.js": "/Gosavi-Store/static/js/main.b3bb15ac.chunk.js",
+    "main.js.map": "/Gosavi-Store/static/js/main.b3bb15ac.chunk.js.map",
+    "runtime-main.js": "/Gosavi-Store/static/js/runtime-main.7f8ca63b.js",
+    "runtime-main.js.map": "/Gosavi-Store/static/js/runtime-main.7f8ca63b.js.map",
+    "static/js/2.4358f5d4.chunk.js": "/Gosavi-Store/static/js/2.4358f5d4.chunk.js",
+    "static/js/2.4358f5d4.chunk.js.map": "/Gosavi-Store/static/js/2.4358f5d4.chunk.js.map",
+    "index.html": "/Gosavi-Store/index.html",
+    "static/css/main.5ac04282.chunk.css.map": "/Gosavi-Store/static/css/main.5ac04282.chunk.css.map",
+    "static/js/2.4358f5d4.chunk.js.LICENSE.txt": "/Gosavi-Store/static/js/2.4358f5d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f8ca63b.js",
+    "static/js/2.4358f5d4.chunk.js",
+    "static/css/main.5ac04282.chunk.css",
+    "static/js/main.b3bb15ac.chunk.js"
+  ]
+}
