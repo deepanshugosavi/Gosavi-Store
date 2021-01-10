@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Gosavi-Store/static/css/main.5ac04282.chunk.css",
-    "main.js": "/Gosavi-Store/static/js/main.b3bb15ac.chunk.js",
-    "main.js.map": "/Gosavi-Store/static/js/main.b3bb15ac.chunk.js.map",
+    "main.js": "/Gosavi-Store/static/js/main.ad5e8593.chunk.js",
+    "main.js.map": "/Gosavi-Store/static/js/main.ad5e8593.chunk.js.map",
     "runtime-main.js": "/Gosavi-Store/static/js/runtime-main.7f8ca63b.js",
     "runtime-main.js.map": "/Gosavi-Store/static/js/runtime-main.7f8ca63b.js.map",
     "static/js/2.4358f5d4.chunk.js": "/Gosavi-Store/static/js/2.4358f5d4.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.7f8ca63b.js",
     "static/js/2.4358f5d4.chunk.js",
     "static/css/main.5ac04282.chunk.css",
-    "static/js/main.b3bb15ac.chunk.js"
+    "static/js/main.ad5e8593.chunk.js"
   ]
 }
